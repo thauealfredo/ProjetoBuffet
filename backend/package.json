@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^12.1.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "knex-migrate": "^1.7.4",
+    "node-pre-gyp": "^0.14.0",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^25.2.6",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
+  }
+}
